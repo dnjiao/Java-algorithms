@@ -44,11 +44,11 @@ public class GroupOfOnes {
 		
 		while(!stack.empty()) {
 			Position pos = stack.pop();
-			if (rows > pos.x && m[pos.x + 1][pos.y] == 1) {
+			if (rows > pos.x + 1 && m[pos.x + 1][pos.y] == 1) {
 				m[pos.x + 1][pos.y] = 0;
 				stack.push(new Position(pos.x + 1, pos.y));
 			}
-			if (cols > pos.y && m[pos.x][pos.y + 1] == 1) {
+			if (cols > pos.y + 1 && m[pos.x][pos.y + 1] == 1) {
 				m[pos.x][pos.y + 1] = 0;
 				stack.push(new Position(pos.x, pos.y + 1));
 			}

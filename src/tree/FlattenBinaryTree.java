@@ -12,6 +12,13 @@ import java.util.Stack;
  * }
  */
 public class FlattenBinaryTree {
+	
+	class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+	
     public void flatten(TreeNode root) {
         Stack<TreeNode> stack = new Stack<TreeNode>();
         TreeNode p = root;

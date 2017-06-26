@@ -42,9 +42,6 @@ public class FindRangeInArray {
 			}
 			
 		}
-		
-		
-		
 	}
 
 	public static void main(String[] args) {

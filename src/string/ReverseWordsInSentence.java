@@ -30,7 +30,7 @@ public class ReverseWordsInSentence {
 				reverseString(chars, begin, end - 1);
 				begin = end;
 			} else {
-					end++;
+				end++;
 				
 			}
 		}

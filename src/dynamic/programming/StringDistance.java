@@ -38,7 +38,7 @@ public class StringDistance {
 					ins = distance[i-1][j] + 1;
 					sub = distance[i-1][j-1] + 1;
 					List list = Arrays.asList(del, ins, sub);
-					distance[i][j] = Collections.min(list);
+					distance[i][j] = (int) Collections.min(list);
 				}
 			}
 		}

@@ -4,7 +4,7 @@ package array;
  * which contains numbers that can be arranged in a continuous sequence.
  *
  */
-public class LongestContiguous {
+public class LongestContinuous {
 	static int longestSubarray(int[] arr) {
 		int n = arr.length;
 		int max_len = 1;

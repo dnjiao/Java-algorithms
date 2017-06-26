@@ -1,4 +1,4 @@
-package stack;
+package indeed;
 
 import java.util.Stack;
 
@@ -27,7 +27,9 @@ public class StackWithMin {
 		if (val > min) {
 			stack.push(val);
 		} else {
-			int top = 2 * val - min;	
+			int top = 2 * val - min;
+			stack.push(top);
+			min = val;
 		}
 	}
 	
