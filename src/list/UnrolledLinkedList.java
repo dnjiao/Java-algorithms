@@ -1,4 +1,4 @@
-package indeed;
+package list;
 /**
  * An unrolled linked list is a variation on the linked list which stores multiple elements in each node. 
  * @author Oscar

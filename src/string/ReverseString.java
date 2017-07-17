@@ -1,4 +1,4 @@
-package indeed;
+package string;
 
 public class ReverseString {
 	private static String reverseRecur(String str) {

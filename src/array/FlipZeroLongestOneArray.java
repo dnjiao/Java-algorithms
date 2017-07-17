@@ -25,7 +25,7 @@ public class FlipZeroLongestOneArray {
 					len = i - prePrev - 1;
 					if (len > max) {
 						max = len;
-						curr = i;
+						curr = prev;
 					}
 				}
 				prePrev = prev;

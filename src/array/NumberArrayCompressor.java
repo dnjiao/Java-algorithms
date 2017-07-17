@@ -1,4 +1,4 @@
-package indeed;
+package array;
 /**
  * You're given an array of integers sorted ( [1,2,3,5,6,7]) 
  * you need to serialize and compress this array into a string (1-3, 5-7)

@@ -1,4 +1,4 @@
-package indeed;
+package string;
 
 import java.util.HashSet;
 import java.util.LinkedHashMap;

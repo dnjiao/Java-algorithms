@@ -1,4 +1,4 @@
-package indeed;
+package string;
 
 public class MinInsertionForPalindrom {
 	

@@ -1,4 +1,4 @@
-package indeed;
+package stack;
 
 import java.util.Stack;
 

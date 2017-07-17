@@ -1,4 +1,4 @@
-package indeed;
+package dynamic.programming;
 
 public class FibonacciDP {
 	
